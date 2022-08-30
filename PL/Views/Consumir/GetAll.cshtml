@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "GetAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetAll</h2>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+<script type="text/javascript" src="~/Scripts/Consumir/Consumir.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <table id="tblConsumir" class="table table-hover" border="1">
+            <thead>
+                <tr>
+                    <th class="hidden" scope="col">albumId</th>
+                    <th class="hidden" scope="col">id</th>
+                    <th class="text-center" scope="col">title</th>
+                    <th class="text-center" scope="col">url</th>
+
+                    <th class="text-center" scope="col"> ThumbnailUrl</th>
+
+                </tr>
+
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
